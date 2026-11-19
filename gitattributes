@@ -1,0 +1,22 @@
+# Normaliza los finales de línea para evitar diferencias entre Windows, Linux y macOS.
+* text=auto
+
+# Código fuente y archivos de configuración: finales de línea LF.
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.c text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Documentos PDF e imágenes: tratar como archivos binarios.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
