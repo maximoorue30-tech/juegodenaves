@@ -115,7 +115,7 @@ int main() {
     
     // SISTEMA ANTI-COPIA: Petición de datos
     string nombrePiloto;
-    cout << "Ingresa tu Nombre y Apellido (Se mostrara en la captura de pantalla): ";
+    cout << "Maximo Orue ";
     getline(cin, nombrePiloto);
     
     system("cls");
